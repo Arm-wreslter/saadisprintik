@@ -66,6 +66,7 @@ body.errors{
 }
 .header{
     background-color: #3F3F3F;
+    background: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
     background-image: -moz-linear-gradient(center top , #696969 0%, #3F3F3F 100%);
     box-shadow: 0 0 10px #2B2B2B;
     height: 42px;
@@ -194,34 +195,41 @@ ul.nobullets {
 }
 
 .btn-primary {
+    background: -webkit-linear-gradient(top, #73aec9 0px,#73aec9 1px,#338ab0 1px,#0571a6 100%);
     background: -moz-linear-gradient(center top , #73AEC9 0px, #73AEC9 1px, #338AB0 1px, #0571A6 100%) repeat scroll 0 0 transparent;
     border-color: #045A8B;
     color: #FFFFFF !important;
 }
 
 .btn-primary:hover {
+    background: -webkit-linear-gradient(top, #69a0b6 0px,#69a0b6 1px,#277696 1px,#04608e 100%);
     background: -moz-linear-gradient(center top , #69A0B6 0px, #69A0B6 1px, #277696 1px, #04608E 100%) repeat scroll 0 0 transparent;
     border-color: #004A73;
 }
 
 .btn-primary:active {
+    background: -webkit-linear-gradient(top, #025f8d 0px,#267696 100%);
     background: -moz-linear-gradient(center top , #025F8D 0px, #267696 100%) repeat scroll 0 0 transparent;
     border-color: #004A73;
 }
 
 .btn-secondary {
+    background: -webkit-linear-gradient(top, #f2f2f2 0px,#f2f2f2 1px,#e4e4e4 1px,#cecece 100%);
     background: -moz-linear-gradient(center top , #F2F2F2 0px, #F2F2F2 1px, #E4E4E4 1px, #CECECE 100%) repeat scroll 0 0 transparent;
     border-color: #999999;
     color: #666666 !important;
 }
 .btn-secondary:hover {
+    background: -webkit-linear-gradient(top, #e4e4e4 0px,#e4e4e4 1px,#c8c8c8 1px,#b7b7b7 100%);
     background: -moz-linear-gradient(center top , #E4E4E4 0px, #E4E4E4 1px, #C8C8C8 1px, #B7B7B7 100%) repeat scroll 0 0 transparent;
 }
 .btn-secondary:active {
+    background: -webkit-linear-gradient(top, #b6b6b6 0px,#c9c9c9 100%);
     background: -moz-linear-gradient(center top , #B6B6B6 0px, #C9C9C9 100%) repeat scroll 0 0 transparent;
 }
 
 .btn-tertiary {
+    background: -webkit-linear-gradient(top, #afd47b 0px,#afd47b 1px,#8bc03f 1px,#69a219 100%);
     background: -moz-linear-gradient(center top , #AFD47B 0px, #AFD47B 1px, #8BC03F 1px, #69A219 100%) repeat scroll 0 0 transparent;
     border-color: #669933;
     color: #FFFFFF !important;
@@ -230,16 +238,19 @@ ul.nobullets {
 }
 
 .btn-tertiary:hover {
+    background: -webkit-linear-gradient(top, #94bd5b 0px,#94bd5b 1px,#649f15 1px,#5d8329 100%);
     background: -moz-linear-gradient(center top , #94BD5B 0px, #94BD5B 1px, #649F15 1px, #5D8329 100%) repeat scroll 0 0 transparent;
 }
 
 .btn-tertiary:active {
+    background: -webkit-linear-gradient(top, #5d822a 0px,#669933 100%);
     background: -moz-linear-gradient(center top , #5D822A 0px, #669933 100%) repeat scroll 0 0 transparent;
 }
 
 .join-btn {
     -moz-box-sizing: border-box;
     background-color: #F6E312;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6e312), color-stop(100%,#f9c80d));
     background-image: -moz-linear-gradient(center top , #F6E312 0%, #F9C80D 100%);
     border-color: #E9AC1A;
     border-radius: 3px 3px 3px 3px;
@@ -263,6 +274,7 @@ ul.nobullets {
 }
 .join-btn:hover{
     background-color: #EDDB11;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eddb11), color-stop(35%,#efcf14), color-stop(65%,#f1bf18), color-stop(100%,#f2b21b));
     background-image: -moz-linear-gradient(center top , #EDDB11 0%, #EFCF14 35%, #F1BF18 65%, #F2B21B 100%);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
@@ -498,12 +510,17 @@ INDIVIDUAL PAGE STYLES
     #members-alphabetized{
         float:left;
         margin:0;
+        margin-left:5px;
     }
     
     #members-alphabetized > li {
         display: inline-block;
         padding-right: 5px;
         padding: 1px;
+        &.directory-link {
+            clear: both;
+            display: block;
+        }
     }
     .widget {
         border: 1px solid #E7E7E7;
@@ -520,6 +537,7 @@ INDIVIDUAL PAGE STYLES
         }
         
         .widgettitle {
+            background: -webkit-linear-gradient(top, #73b8db 0px,#4393bb 100%);
             background: -moz-linear-gradient(center top , #73B8DB 0px, #4393BB 100%) repeat scroll 0 0 transparent;
             border-radius: 10px 10px 0 0;
             color: #FFFFFF;
@@ -625,6 +643,7 @@ INDIVIDUAL PAGE STYLES
 .page-6{
     .introduction h1{
         color:#FFF;
+        background: -webkit-linear-gradient(top, #91cce7 0%,#00679a 100%);
         background: -moz-linear-gradient(center top , #91CCE7 0%, #00679A 100%) repeat scroll 0 0 transparent;
         padding:16px 18px;
         margin:0;
